@@ -1,25 +1,27 @@
 // // --------------------    question 1      ----------------------  
-// let odd = 0 ;
-// let even = 0;
+let odd = 0;
+let even = 0;
 
-// for(let i = 3; i <= 50 ; i++){
+for (let i = 3; i <= 50; i++) {
 
-// if((i % 3) == 0){
-// odd++
+    if ((i % 3) == 0) {
+        if ((i % 2) == 0) {
+            even++
+        } else {
+            odd++
+        }
 
-// } else if ((i % 2) == 0 ){
-// even++
-// }
+    }
 
-// }
-// console.log("odd numbers:" + odd);
-// console.log("even numbers:" + even);
+}
+console.log("odd numbers:" + odd);
+console.log("even numbers:" + even);
 
-// // --------------------    question 2      ----------------------  
+// // --------------------    question 2      ----------------------
 
 // let a:number;   let b:number; let mul:number;
 
-// a = 6 ; 
+// a = 6 ;
 // b = 2 ;
 // mul = 0;
 
@@ -29,11 +31,11 @@
 // }
 // console.log(mul);
 
-// // --------------------    question 3      ----------------------  
+// // --------------------    question 3      ----------------------
 
 // let num:number;   let pres:number; let sum:number;
 
-// num = 11 ; 
+// num = 11 ;
 // pres = 2 ;
 // sum = 1;
 
@@ -44,23 +46,23 @@
 // console.log(sum);
 
 
-// // --------------------    question 4      ----------------------  
+// // --------------------    question 4      ----------------------
 
-let a = 65;
-let A = 97;
-let letter = "";
+// let a = 65;
+// let A = 97;
+// let letter = "";
 
-for (let i = A; i <= 122; i++) {
-    let alf = String.fromCharCode(i)
-    letter += alf.toString() + " " ;
+// for (let i = A; i <= 122; i++) {
+//     let alf = String.fromCharCode(i)
+//     letter += alf.toString() + " ";
 
-}
-for (let i = a; i <= 90; i++) {
-    let alf = String.fromCharCode(i)
-    letter += alf.toString() + " ";
+// }
+// for (let i = a; i <= 90; i++) {
+//     let alf = String.fromCharCode(i)
+//     letter += alf.toString() + " ";
 
-}
+// }
 
-console.log(letter);
+// console.log(letter);
 
 // // ------------------------------------------------------------------  
